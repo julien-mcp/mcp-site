@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos réalisations — Momentum Creative Productions</title>
+  <meta name="description" content="Films institutionnels, captations live, aftermovies et motion design produits par MCP. Découvrez nos réalisations.">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="site-header scrolled">
+    <div class="container nav">
+      <a class="logo" href="index.html" aria-label="Momentum Creative Productions — accueil">
+        <img src="assets/img/logo-horizontal-blanc.png" alt="Momentum Creative Productions" data-fallback>
+        <span class="logo-word"><strong>Momentum</strong><small>Creative Productions</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="realisations.html" aria-current="page">Réalisations</a></li>
+        <li><a href="agence.html">L'agence</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="contact.html">Demander un devis</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="page">
+
+    <section class="page-head">
+      <div class="container">
+        <p class="lt">Réalisations</p>
+        <h1 class="display-xl">Le travail parle<br>mieux que nous<span class="dot">.</span></h1>
+        <p class="lead">Films institutionnels, directs multicaméra, aftermovies,
+        motion design&nbsp;: une sélection de productions récentes.</p>
+      </div>
+    </section>
+
+    <section class="section bg-ivoire on-light">
+      <div class="container">
+
+        <div class="filters" role="group" aria-label="Filtrer les réalisations">
+          <button class="filter active" data-filter="all">Tous</button>
+          <button class="filter" data-filter="institutionnel">Film institutionnel</button>
+          <button class="filter" data-filter="live">Live &amp; TV</button>
+          <button class="filter" data-filter="aftermovie">Aftermovie</button>
+          <button class="filter" data-filter="motion">Motion design</button>
+          <button class="filter" data-filter="industrie">Industrie &amp; BTP</button>
+        </div>
+
+        <!-- ==================================================================
+             COMMENT AJOUTER UN PROJET
+             1. Dupliquez un bloc <button class="work"> ci-dessous
+             2. data-cat : institutionnel | live | aftermovie | motion | industrie
+             3. data-video : URL d'embed (ex. https://www.youtube.com/embed/ID
+                ou https://player.vimeo.com/video/ID) — laisser vide si pas de vidéo
+             4. Vignette : assets/img/projet-XX.jpg (idéal : 1280×720)
+             5. Renseignez catégorie, titre, client, année
+             NB : les cartes ci-dessous sont des EXEMPLES à remplacer.
+             ================================================================== -->
+        <div class="works-grid">
+
+          <button class="work reveal" type="button" data-cat="institutionnel" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-01.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Film institutionnel</span>
+              <h3>Titre du projet</h3>
+              <p class="client">Client · 2026</p>
+            </div>
+          </button>
+
+          <button class="work reveal" type="button" data-cat="live" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-02.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Live &amp; TV</span>
+              <h3>Retransmission en direct</h3>
+              <p class="client">Client · 2026</p>
+            </div>
+          </button>
+
+          <button class="work reveal" type="button" data-cat="aftermovie" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-03.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Aftermovie</span>
+              <h3>Aftermovie d'événement</h3>
+              <p class="client">Client · 2025</p>
+            </div>
+          </button>
+
+          <button class="work reveal" type="button" data-cat="motion" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-04.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Motion design</span>
+              <h3>Film d'animation technique</h3>
+              <p class="client">Client · 2026</p>
+            </div>
+          </button>
+
+          <button class="work reveal" type="button" data-cat="industrie" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-05.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Industrie &amp; BTP</span>
+              <h3>Reportage de chantier</h3>
+              <p class="client">Client · 2025</p>
+            </div>
+          </button>
+
+          <button class="work reveal" type="button" data-cat="institutionnel" data-video="">
+            <div class="thumb">
+              <span class="ph">Visuel à venir</span>
+              <img src="assets/img/projet-06.jpg" alt="" data-fallback>
+              <span class="badge-play" aria-hidden="true"></span>
+            </div>
+            <div class="meta">
+              <span class="cat">Film institutionnel</span>
+              <h3>Film marque employeur</h3>
+              <p class="client">Client · 2025</p>
+            </div>
+          </button>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-bordeaux cta-band">
+      <div class="container reveal">
+        <p class="lt">Votre projet, le prochain&nbsp;?</p>
+        <h2 class="display-l">Imaginons votre film</h2>
+        <p>Chaque production commence par une conversation. Décrivez-nous votre besoin,
+        nous vous répondons sous 24&nbsp;h ouvrées.</p>
+        <a class="btn btn-or" href="contact.html">Demander un devis</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <img src="assets/img/logo-horizontal-blanc.png" alt="Momentum Creative Productions" data-fallback>
+            <span class="logo-word"><strong>Momentum</strong><small>Creative Productions</small></span>
+          </a>
+          <p>Agence de production audiovisuelle. Films institutionnels, captation live,
+          aftermovies et motion design — à Lyon et dans toute la France.</p>
+        </div>
+        <div>
+          <h4>Nous trouver</h4>
+          <ul>
+            <li>76 cours Gambetta<br>69007 Lyon</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@momentumcreativeprod.com">contact@momentumcreativeprod.com</a></li>
+            <li><a href="tel:+33656852571">06 56 85 25 71</a></li>
+            <li><a href="contact.html">Demander un devis</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© Momentum Creative Productions 2026</span>
+        <span><a href="mentions-legales.html">Mentions légales</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="video-modal" id="video-modal">
+    <button class="close" type="button">Fermer ✕</button>
+    <div class="inner"><iframe title="Lecture vidéo" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+  </dialog>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
