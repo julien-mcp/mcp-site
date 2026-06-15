@@ -1,1 +1,15 @@
+DEPOSEZ ICI VOS FICHIERS GOTHAM (.woff2), nommes exactement :
 
+  Gotham-Book.woff2     (graisse 400 - texte courant)
+  Gotham-Medium.woff2   (graisse 500 - labels, navigation)
+  Gotham-Bold.woff2     (graisse 700 - boutons, accents)
+  Gotham-Black.woff2    (graisse 900 - grands titres)
+
+Si vos fichiers portent d'autres noms, soit renommez-les, soit adaptez
+les blocs @font-face en tete de assets/css/styles.css.
+
+Tant que les fichiers ne sont pas deposes, le site s'affiche en
+Montserrat (alternative libre la plus proche de Gotham).
+
+RAPPEL LICENCE : verifiez que votre licence Gotham couvre bien
+l'auto-hebergement web (@font-face) sur votre domaine.
