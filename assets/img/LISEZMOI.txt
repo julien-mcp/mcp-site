@@ -1,1 +1,15 @@
+IMAGES ATTENDUES (le site affiche des fonds elegants tant qu'elles manquent) :
 
+  logo-horizontal-blanc.png   Logo MCP horizontal blanc (navigation + footer)
+  og-cover.jpg                Image de partage reseaux sociaux (1200x630)
+  favicon.svg                 Present (placeholder M) - remplacez par votre sigle
+
+  agence-teaser.jpg           Photo de tournage (accueil, ~1200x900)
+  agence-01.jpg               Photo de tournage (page agence)
+  agence-materiel.jpg         Photo du parc materiel (page agence)
+  equipe-julien.jpg           Portrait Julien (800x1000)
+  equipe-02.jpg, equipe-03.jpg  Autres portraits (avec accord des personnes)
+
+  projet-01.jpg ... projet-06.jpg   Vignettes realisations (1280x720)
+
+Conseil : exportez en JPEG qualite 80, largeur max 1600 px, pour un site rapide.
